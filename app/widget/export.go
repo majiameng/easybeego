@@ -1,9 +1,10 @@
 package widget
 
-import "fmt"
+import (
+	"html/template"
+)
 
-func Export(params ...interface{}) (out string) {
-	fmt.Println("---")
-	fmt.Println(params)
-	return out
+func Export(params ...interface{}) template.HTML {
+	rt := template.HTML(`html`)
+	return rt
 }
