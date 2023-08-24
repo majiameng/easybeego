@@ -5,7 +5,7 @@
 
 /**
  * 数组处理类
- * @author 半城风雨
+ * @author Tinymeng
  * @since 2021/11/16
  * @File : list
  */

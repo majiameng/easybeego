@@ -4,7 +4,8 @@ import (
 	"html/template"
 )
 
-func Query(params ...interface{}) template.HTML {
-	rt := template.HTML(`html`)
+func Query(name string) template.HTML {
+	html := `<button class="layui-btn layui-btn-sm" lay-event="query">` + name + `</button>`
+	rt := template.HTML(html)
 	return rt
 }

@@ -5,7 +5,7 @@
 
 /**
  * 公共函数库
- * @author 半城风雨
+ * @author Tinymeng
  * @since 2021/3/2
  * @File : common
  */

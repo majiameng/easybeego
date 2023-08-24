@@ -5,6 +5,7 @@ import (
 )
 
 func Addz(params ...interface{}) template.HTML {
-	rt := template.HTML(`html`)
+	html := ``
+	rt := template.HTML(html)
 	return rt
 }

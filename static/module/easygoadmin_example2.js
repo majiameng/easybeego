@@ -4,7 +4,7 @@
 
 /**
  * 演示二管理
- * @author 半城风雨
+ * @author Tinymeng
  * @since 2022-05-13
  */
 layui.use(['func'], function () {
