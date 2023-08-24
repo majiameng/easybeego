@@ -36,7 +36,7 @@ bee generate appcode -driver=mysql -conn="easybeego:MbKwf2fR7Xii74Zz@tcp(127.0.0
 ## 🍪 项目结构
 
 ```
-easybeego
+EasyBeeGo
 |-- conf
 |   `-- app.conf
 |-- controllers
