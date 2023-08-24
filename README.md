@@ -4,6 +4,8 @@
 ### 生成代码
 bee generate appcode -driver=mysql -conn="easybeego:MbKwf2fR7Xii74Zz@tcp(127.0.0.1:3306)/easybeego" -level=1
 
+### beego框架：bee工具进行beego项目的创建、热编译、开发、测试、和部署
+https://sns.bjwmsc.com/archives/3813
 
 ## 🍻 项目特点
 
