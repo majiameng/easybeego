@@ -1,6 +1,9 @@
 package widget
 
-func City(in string) (out string) {
-	out = in + "world"
-	return
+import "fmt"
+
+func City(params ...interface{}) (out string) {
+	fmt.Println("---")
+	fmt.Println(params)
+	return out
 }

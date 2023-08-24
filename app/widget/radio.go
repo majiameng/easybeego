@@ -1,6 +1,9 @@
 package widget
 
-func Radio(in string) (out string) {
-	out = in + "world"
-	return
+import "fmt"
+
+func Radio(params ...interface{}) (out string) {
+	fmt.Println("---")
+	fmt.Println(params)
+	return out
 }

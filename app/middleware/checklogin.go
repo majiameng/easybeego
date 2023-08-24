@@ -27,7 +27,7 @@ func CheckLogin() {
 	var login = func(ctx *context.Context) {
 		fmt.Println("登录验证中间件")
 		// 放行设置
-		urlItem := []string{"/captcha", "/login"}
+		urlItem := []string{"/captcha", "/login", "/user/index"}
 		if !utils.InStringArray(ctx.Request.URL.Path, urlItem) && !strings.Contains(ctx.Request.URL.Path, "resource") {
 			if !IsLogin(ctx) {
 				// 跳转登录页,方式：301(永久移动),308(永久重定向),307(临时重定向)

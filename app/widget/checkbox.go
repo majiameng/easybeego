@@ -1,6 +1,9 @@
 package widget
 
-func Checkbox(in string) (out string) {
-	out = in + "world"
-	return
+import "fmt"
+
+func Checkbox(params ...interface{}) (out string) {
+	fmt.Println("---")
+	fmt.Println(params)
+	return out
 }

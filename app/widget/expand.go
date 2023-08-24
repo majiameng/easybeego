@@ -1,6 +1,9 @@
 package widget
 
-func Expand(in string) (out string) {
-	out = in + "world"
-	return
+import "fmt"
+
+func Expand(params ...interface{}) (out string) {
+	fmt.Println("---")
+	fmt.Println(params)
+	return out
 }
